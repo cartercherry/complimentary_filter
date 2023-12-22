@@ -1,8 +1,9 @@
-#################################################################################
-# complimentary.py 12/21/23 Lesson 48  MPU6050                                  #
-# complimentary filter for degrees pitch, roll from accelerometer and gyro      #
-# yaw calculated from gyro only;  accurate in short term only due to drift      #
-#################################################################################
+#############################################################################################
+# complimentary.py 12/21/23 Lesson 48  MPU6050                                              #
+# complimentary filter for degrees pitch, roll from accelerometer and gyro                  #
+# yaw calculated from gyro only;  accurate in short term only due to drift                  #
+# https://raw.githubusercontent.com/cartercherry/complimentary_filter/main/complimentary.py #
+#############################################################################################
 
 from imu import MPU6050
 from machine import Pin, I2C
